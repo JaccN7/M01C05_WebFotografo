@@ -1,0 +1,84 @@
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+img {
+    border: 1px solid #ddd;
+    width: 30%;
+    height: 600px;
+    margin: 1.4%;
+}
+
+h1{
+    width: 700px;
+    font-size: 50px;
+    border-bottom: 2px solid #961111;
+    padding-bottom: 25px;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h1, h2, h3, h4,h5, h6{
+    text-transform: uppercase;
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: #a29c9c;
+}
+
+.button {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #555555;
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
+  }
+  
+  .button:hover {
+    background-color: #555555;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+body {
+    font-family: 'Merriweather', serif;
+    background-image: url("https://images.pexels.com/photos/2098428/pexels-photo-2098428.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-size: cover;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px; 
+    text-align: center;
+}
+
+.imageheader {
+    background-image: url("https://images.pexels.com/photos/1655817/pexels-photo-1655817.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-color: #cccccc;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 25%;
+}
+
+.textoheader{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(68, 64, 64);
+    margin-top: 20px;
+}
